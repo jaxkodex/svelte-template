@@ -2195,9 +2195,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sveltejs/kit@npm:^2.57.0":
-  version: 2.64.0
-  resolution: "@sveltejs/kit@npm:2.64.0"
+"@sveltejs/kit@npm:^2.66.0":
+  version: 2.66.0
+  resolution: "@sveltejs/kit@npm:2.66.0"
   dependencies:
     "@standard-schema/spec": "npm:^1.0.0"
     "@sveltejs/acorn-typescript": "npm:^1.0.9"
@@ -2224,7 +2224,7 @@ __metadata:
       optional: true
   bin:
     svelte-kit: svelte-kit.js
-  checksum: 10c0/2043ebfc9f78e5778ee372039430e6c9ec70dccfa054547d696e1d870c9f6a40803ae51967e660caddbb68655ea2583a0ec0c9a275c9048782ea8d2316594b24
+  checksum: 10c0/c90f595b7ac67aecc70c7eb737b4dc0df2063ee7bbaa796eff53c9cdd7719baf00b5f5d472d9bb0f202044f7f3cfecea91589c2448088c8fbf11613db17da226
   languageName: node
   linkType: hard
 
@@ -5857,7 +5857,7 @@ __metadata:
     "@fontsource-variable/jetbrains-mono": "npm:^5.2.8"
     "@phosphor-icons/react": "npm:^2.1.10"
     "@sveltejs/adapter-auto": "npm:^7.0.1"
-    "@sveltejs/kit": "npm:^2.57.0"
+    "@sveltejs/kit": "npm:^2.66.0"
     "@sveltejs/vite-plugin-svelte": "npm:^7.0.0"
     "@tailwindcss/typography": "npm:^0.5.19"
     "@tailwindcss/vite": "npm:^4.2.2"
