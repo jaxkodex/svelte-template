@@ -40,3 +40,17 @@ npm run build
 You can preview the production build with `npm run preview`.
 
 > To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+
+## UI components
+
+UI components come from [shadcn-svelte](https://shadcn-svelte.com) using Phosphor icons. Imports use the `#lib` alias, which maps to `src/lib`:
+
+```sh
+# add a component, e.g. button or select
+yarn shadcn-svelte add button
+
+# sync yarn.lock after the CLI installs dependencies
+yarn install
+```
+
+Generated components live in `src/lib/components/ui` and are excluded from ESLint and Prettier, since they are meant to be regenerated rather than hand-maintained. Shared helpers live in `src/lib/utils.ts`.
