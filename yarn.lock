@@ -751,16 +751,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@phosphor-icons/react@npm:^2.1.10":
-  version: 2.1.10
-  resolution: "@phosphor-icons/react@npm:2.1.10"
-  peerDependencies:
-    react: ">= 16.8"
-    react-dom: ">= 16.8"
-  checksum: 10c0/9a469e1bdcabcd3db02eda13142d57be250847ebbeb82b33c8900580a6a23ed4f411dbb9b9deacef726ff3fa8ffc960c8868b518e448bd2cee654cedf3fa4bda
-  languageName: node
-  linkType: hard
-
 "@polka/url@npm:^1.0.0-next.24":
   version: 1.0.0-next.29
   resolution: "@polka/url@npm:1.0.0-next.29"
@@ -2495,7 +2485,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/estree@npm:^1.0.6, @types/estree@npm:^1.0.8, @types/estree@npm:^1.0.9":
+"@types/estree@npm:^1.0.0, @types/estree@npm:^1.0.6, @types/estree@npm:^1.0.8, @types/estree@npm:^1.0.9":
   version: 1.0.9
   resolution: "@types/estree@npm:1.0.9"
   checksum: 10c0/3ad3286ca2988cd550dafb8f2ad599c8474868e954fa601a36655bdfefd8039f7c714b8c1c7f2ae219ffbd58bd4660e66fa7479a0120fc02d4777057d4865387
@@ -3552,6 +3542,15 @@ __metadata:
   version: 5.3.0
   resolution: "estraverse@npm:5.3.0"
   checksum: 10c0/1ff9447b96263dec95d6d67431c5e0771eb9776427421260a3e2f0fdd5d6bd4f8e37a7338f5ad2880c9f143450c9b1e4fc2069060724570a49cf9cf0312bd107
+  languageName: node
+  linkType: hard
+
+"estree-walker@npm:^3.0.3":
+  version: 3.0.3
+  resolution: "estree-walker@npm:3.0.3"
+  dependencies:
+    "@types/estree": "npm:^1.0.0"
+  checksum: 10c0/c12e3c2b2642d2bcae7d5aa495c60fa2f299160946535763969a1c83fc74518ffa9c2cd3a8b69ac56aea547df6a8aac25f729a342992ef0bbac5f1c73e78995d
   languageName: node
   linkType: hard
 
@@ -4671,7 +4670,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"magic-string@npm:^0.30.11, magic-string@npm:^0.30.21":
+"magic-string@npm:^0.30.11, magic-string@npm:^0.30.13, magic-string@npm:^0.30.21":
   version: 0.30.21
   resolution: "magic-string@npm:0.30.21"
   dependencies:
@@ -5095,6 +5094,22 @@ __metadata:
   version: 8.4.2
   resolution: "path-to-regexp@npm:8.4.2"
   checksum: 10c0/05b115c49b47ad252ce05faa32930f643f23769c68b8bcfe78ad833545140c48bbffb3266986d6c8d5db13a64cf12e07e0d72d9882cab830efeefa553533ebaf
+  languageName: node
+  linkType: hard
+
+"phosphor-svelte@npm:^3.1.1":
+  version: 3.1.1
+  resolution: "phosphor-svelte@npm:3.1.1"
+  dependencies:
+    estree-walker: "npm:^3.0.3"
+    magic-string: "npm:^0.30.13"
+  peerDependencies:
+    svelte: ^5.0.0 || ^5.0.0-next.96
+    vite: ">=5"
+  peerDependenciesMeta:
+    vite:
+      optional: true
+  checksum: 10c0/8de0f998ff143c93b715367f1e26281e972971a17bf36914bcfce6c688d3ccebda36446a13f8e38328b903da92ef85d97af61efff7e9ea60da7bfa0d6227cf66
   languageName: node
   linkType: hard
 
@@ -6023,7 +6038,6 @@ __metadata:
   dependencies:
     "@eslint/js": "npm:^10.0.1"
     "@fontsource-variable/jetbrains-mono": "npm:^5.2.8"
-    "@phosphor-icons/react": "npm:^2.1.10"
     "@sveltejs/adapter-auto": "npm:^8.0.0"
     "@sveltejs/kit": "npm:^3.1.0"
     "@sveltejs/vite-plugin-svelte": "npm:^7.3.1"
@@ -6036,6 +6050,7 @@ __metadata:
     eslint-config-prettier: "npm:^10.1.8"
     eslint-plugin-svelte: "npm:^3.23.1"
     globals: "npm:^17.4.0"
+    phosphor-svelte: "npm:^3.1.1"
     prettier: "npm:^3.9.10"
     prettier-plugin-svelte: "npm:^4.1.1"
     prettier-plugin-tailwindcss: "npm:^0.8.1"
