@@ -54,3 +54,7 @@ yarn install
 ```
 
 Generated components live in `src/lib/components/ui` and are excluded from ESLint and Prettier, since they are meant to be regenerated rather than hand-maintained. Shared helpers live in `src/lib/utils.ts`.
+
+## Pull request merges
+
+Non-draft pull requests targeting `main` are automatically squash-merged after CI passes and GitHub's branch rules are satisfied. This includes pull requests from forks. GitHub may require a maintainer to approve CI for a first-time contributor or for a pull request created by a workflow before it can run.
