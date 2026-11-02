@@ -2291,9 +2291,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"shadcn-svelte@npm:^1.7.0":
-  version: 1.7.0
-  resolution: "shadcn-svelte@npm:1.7.0"
+"shadcn-svelte@npm:^1.7.2":
+  version: 1.7.2
+  resolution: "shadcn-svelte@npm:1.7.2"
   dependencies:
     cn: "npm:^0.3.0"
     commander: "npm:^14.0.0"
@@ -2302,8 +2302,8 @@ __metadata:
   peerDependencies:
     svelte: ^5.0.0
   bin:
-    shadcn-svelte: dist/index.mjs
-  checksum: 10c0/1dd7d49d7076495f2e3147bbcb7801b90467b50add37195145bd6071a0ca9dcbe0e10c708c69dd582279d83f4c4fe7f697ab7a22fbcd286666e483b19551b152
+    shadcn-svelte: ./dist/index.mjs
+  checksum: 10c0/de57c1db1e66ebf8bf7a0b5108183e9c7f719a43e707812c3700193135aa307b9b7dcdf530b9c09e4161366e9eb2b2f1b4dbdcb580b93d84ae909fe2c371b79f
   languageName: node
   linkType: hard
 
@@ -2408,7 +2408,7 @@ __metadata:
     prettier: "npm:^3.9.10"
     prettier-plugin-svelte: "npm:^4.1.1"
     prettier-plugin-tailwindcss: "npm:^0.8.1"
-    shadcn-svelte: "npm:^1.7.0"
+    shadcn-svelte: "npm:^1.7.2"
     svelte: "npm:^5.57.3"
     svelte-check: "npm:^4.7.7"
     tailwind-merge: "npm:^3.7.0"
