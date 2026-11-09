@@ -1069,27 +1069,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-svelte@npm:^3.23.1":
-  version: 3.23.1
-  resolution: "eslint-plugin-svelte@npm:3.23.1"
+"eslint-plugin-svelte@npm:^3.24.0":
+  version: 3.24.0
+  resolution: "eslint-plugin-svelte@npm:3.24.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.6.1"
     "@jridgewell/sourcemap-codec": "npm:^1.5.0"
     esutils: "npm:^2.0.3"
     globals: "npm:^16.0.0"
     known-css-properties: "npm:^0.37.0"
-    postcss: "npm:^8.4.49"
+    postcss: "npm:^8.5.10"
     postcss-load-config: "npm:^3.1.4"
     postcss-safe-parser: "npm:^7.0.0"
     semver: "npm:^7.6.3"
-    svelte-eslint-parser: "npm:^1.7.0"
+    svelte-eslint-parser: "npm:^1.10.1"
   peerDependencies:
     eslint: ^8.57.1 || ^9.0.0 || ^10.0.0
     svelte: ^3.37.0 || ^4.0.0 || ^5.0.0
   peerDependenciesMeta:
     svelte:
       optional: true
-  checksum: 10c0/a2d6f407e50f3d353385b738a992bb31cb9ee7f73727c75bdb58362cf1ba97e4ff6cf0851205338577aabc6bfb027de6a789224e599b87a2a3714102c3556933
+  checksum: 10c0/d56073900e9c7cbd02aaef8d628fdae4f26d62e0c031e5462b91c68e8635d85115888110d02ef33f859b710bd45ec157947d08ea1103bc3b53726084677c48ae
   languageName: node
   linkType: hard
 
@@ -2367,9 +2367,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"svelte-eslint-parser@npm:^1.7.0":
-  version: 1.8.0
-  resolution: "svelte-eslint-parser@npm:1.8.0"
+"svelte-eslint-parser@npm:^1.10.1":
+  version: 1.10.1
+  resolution: "svelte-eslint-parser@npm:1.10.1"
   dependencies:
     eslint-scope: "npm:^8.2.0"
     eslint-visitor-keys: "npm:^4.0.0"
@@ -2383,7 +2383,7 @@ __metadata:
   peerDependenciesMeta:
     svelte:
       optional: true
-  checksum: 10c0/c3fed4ddf8e73ca8186a2a4a026c5d8682ab5bb485618d088fd1fdcbf0f5369d842df2aa3697faedb33547a178ce15c425e3ab5fbe1f3e3dc99c49096e427800
+  checksum: 10c0/b85af83d564b694788c9ca08407d85a87782d73b57a415261f2989e13d12d85c150aa858e86279f11eb3f8efeb14c070689e8164e279c8f96824237f23af888f
   languageName: node
   linkType: hard
 
@@ -2402,7 +2402,7 @@ __metadata:
     cn: "npm:^0.5.1"
     eslint: "npm:^10.14.0"
     eslint-config-prettier: "npm:^10.1.8"
-    eslint-plugin-svelte: "npm:^3.23.1"
+    eslint-plugin-svelte: "npm:^3.24.0"
     globals: "npm:^17.13.0"
     phosphor-svelte: "npm:^3.1.1"
     prettier: "npm:^3.9.10"
