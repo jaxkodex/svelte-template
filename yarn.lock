@@ -412,18 +412,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sveltejs/adapter-auto@npm:^8.0.1":
-  version: 8.0.1
-  resolution: "@sveltejs/adapter-auto@npm:8.0.1"
+"@sveltejs/adapter-auto@npm:^9.0.0":
+  version: 9.0.0
+  resolution: "@sveltejs/adapter-auto@npm:9.0.0"
   peerDependencies:
     "@sveltejs/kit": ^3.0.0-next.0
-  checksum: 10c0/288a717e63dea21ee72cb8c2863b6f86df5ae12b5b115ea72b95c17bc4fc8d99f382154a7173690aacb07df16aeb69a0dcf47e45aa0283b47446c96da9435201
+  checksum: 10c0/19595eb33c736df50eed4e92766b70ec71616057daad04639a138b9ce97473d963c804b7d9a59150f0408eb9b11dc1c9ae89f2d8043a76edb3461d84719d395e
   languageName: node
   linkType: hard
 
-"@sveltejs/kit@npm:^3.2.0":
-  version: 3.2.0
-  resolution: "@sveltejs/kit@npm:3.2.0"
+"@sveltejs/kit@npm:^3.4.0":
+  version: 3.4.0
+  resolution: "@sveltejs/kit@npm:3.4.0"
   dependencies:
     "@jridgewell/trace-mapping": "npm:^0.3.31"
     "@rolldown/pluginutils": "npm:^1.0.1"
@@ -447,7 +447,7 @@ __metadata:
       optional: true
   bin:
     svelte-kit: svelte-kit.js
-  checksum: 10c0/f604c5df59355c2a3451824082ea34f5b63349f6c1d88c77c76f059db2ac0f89ddc8fd04106d1a580d8911bd0c482861554ea5136df5a9274cb5893284ec802d
+  checksum: 10c0/98bcc0269ea76cb26b2c41dfd7f232d935a77498d599f69d05626581bac02131127ff17c49b9756cd3b6ef83d6b213ee7089d3c796504e52e4abf9cd7c137e9d
   languageName: node
   linkType: hard
 
@@ -1220,9 +1220,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esrap@npm:^2.3.6":
-  version: 2.4.0
-  resolution: "esrap@npm:2.4.0"
+"esrap@npm:^2.4.2":
+  version: 2.4.2
+  resolution: "esrap@npm:2.4.2"
   dependencies:
     "@jridgewell/sourcemap-codec": "npm:^1.4.15"
   peerDependencies:
@@ -1230,7 +1230,7 @@ __metadata:
   peerDependenciesMeta:
     "@typescript-eslint/types":
       optional: true
-  checksum: 10c0/36718ac21957031a4f99e4ebda8376e0c11b78b6c7c40dc3494f3cdd8df14cbaf13e6c3f1216feb55cac85f6a249f98a61f3e6ef8c6b1cb8555a7f6e7364227f
+  checksum: 10c0/34de2769a26ef192abbeb409f5a2d855b245b9a15b51a7230f4eeebeaf63de867c5dde7d9e3c08b4ea3a3090e55764a3a05c604027e8713b9824ca3e3458242f
   languageName: node
   linkType: hard
 
@@ -2283,8 +2283,8 @@ __metadata:
   dependencies:
     "@eslint/js": "npm:^10.0.1"
     "@fontsource-variable/jetbrains-mono": "npm:^5.3.0"
-    "@sveltejs/adapter-auto": "npm:^8.0.1"
-    "@sveltejs/kit": "npm:^3.2.0"
+    "@sveltejs/adapter-auto": "npm:^9.0.0"
+    "@sveltejs/kit": "npm:^3.4.0"
     "@sveltejs/vite-plugin-svelte": "npm:^7.3.1"
     "@tailwindcss/typography": "npm:^0.5.19"
     "@tailwindcss/vite": "npm:^4.3.5"
@@ -2299,7 +2299,7 @@ __metadata:
     prettier-plugin-svelte: "npm:^4.1.1"
     prettier-plugin-tailwindcss: "npm:^0.8.1"
     shadcn-svelte: "npm:^1.8.1"
-    svelte: "npm:^5.57.3"
+    svelte: "npm:^5.59.0"
     svelte-check: "npm:^4.7.8"
     tailwind-merge: "npm:^3.7.0"
     tailwind-variants: "npm:^4.0.2"
@@ -2311,9 +2311,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"svelte@npm:^5.57.3":
-  version: 5.57.3
-  resolution: "svelte@npm:5.57.3"
+"svelte@npm:^5.59.0":
+  version: 5.59.0
+  resolution: "svelte@npm:5.59.0"
   dependencies:
     "@jridgewell/remapping": "npm:^2.3.5"
     "@jridgewell/sourcemap-codec": "npm:^1.6.0"
@@ -2325,12 +2325,12 @@ __metadata:
     clsx: "npm:^2.1.1"
     devalue: "npm:^5.9.2"
     esm-env: "npm:^1.2.1"
-    esrap: "npm:^2.3.6"
+    esrap: "npm:^2.4.2"
     is-reference: "npm:^3.0.3"
     locate-character: "npm:^3.0.0"
     magic-string: "npm:^0.30.11"
     zimmerframe: "npm:^1.1.2"
-  checksum: 10c0/7050a21fde742ae87629f43393e3101699dd8cd4b1d65f70844f035811394f78d581b1da8087c51f2444efeb4c10ed52954e4bf956329223959b644ca8e5831f
+  checksum: 10c0/1d3db80b73b30285654e99476c225fd896d0705cebaf06d29cf5ae52010b0156a7254a5448cca6d13a809396c58633ae80512dc8da7cf19c48e853a9fc291f49
   languageName: node
   linkType: hard
 
